@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <title>London Underground App</title>
+</head>
+<body id="body" class="bg-blue">
+
+<script src="node_modules/mousetrap/mousetrap.min.js"></script>
+<script>
+    Mousetrap.bind('0 9 8 3 3 0 2 8 enter', function() {
+        let element = document.getElementById("body");
+        element.classList.remove("bg-blue");
+        element.classList.add("bg-orange");
+    });
+    Mousetrap.bind('0 9 8 3 4 5 6 4 enter', function() {
+        let element = document.getElementById("body");
+        element.classList.remove("bg-orange");
+        element.classList.add("bg-blue");
+    });
+</script>
+</body>
+</html>

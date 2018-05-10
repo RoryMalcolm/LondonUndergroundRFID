@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+}
+
+.bg-orange {
+    width: 100%;
+    background: url("OrangePNG-06.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.bg-blue {
+    width: 100%;
+    background: url("BluePNG-07.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
